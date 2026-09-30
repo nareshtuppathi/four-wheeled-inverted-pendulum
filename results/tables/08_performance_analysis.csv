@@ -1,0 +1,13 @@
+Metric,Value,Unit,Definition
+"Initial pendulum angle",5,deg,"theta(t=0), from the initial condition"
+"Maximum positive pendulum angle",5,deg,"max(theta(t)) over the full 0-5 s run"
+"Minimum pendulum angle",-1.84317652355163,deg,"min(theta(t)) over the full 0-5 s run"
+"Maximum absolute pendulum angle",5,deg,"max(abs(theta(t))) over the full 0-5 s run"
+"Maximum absolute LQR control force",5.37017509046318,N,"max(abs(F_LQR(t))), F_LQR = -K*X"
+"Maximum absolute chassis displacement",0.292938379496956,m,"max(abs(x(t))) over the full 0-5 s run"
+"Maximum absolute chassis velocity",0.278813149586561,m/s,"max(abs(x_dot(t))) over the full 0-5 s run"
+"Final pendulum angle",0.211177294088849,deg,"theta(t=5s), end of the simulation"
+"Final chassis position",0.00739714193423964,m,"x(t=5s), end of the simulation"
+"Final chassis velocity",-0.0413168515154958,m/s,"x_dot(t=5s), end of the simulation"
+"Settling time (|theta| <= 0.5 deg band, sustained to end)",2.65369382901639,s,"Earliest t* with |theta(t)|<=0.5deg for all t in [t*,5s]"
+"Disturbance recovery time (after t=2.2 s)",0.453693829016392,s,"Settling time minus t_dist_end (2.2 s)"

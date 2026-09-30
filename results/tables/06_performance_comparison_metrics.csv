@@ -1,0 +1,9 @@
+Metric,No Disturbance,With Disturbance
+"Max |pendulum angle| [deg]",5.0000,5.0000
+"Final pendulum angle [deg]",0.1060,0.2112
+"Max |chassis position| [m]",0.2872,0.2929
+"Final chassis position [m]",0.1047,0.0074
+"Max |chassis velocity| [m/s]",0.2788,0.2788
+"Max |LQR control force| [N]",5.3702,5.3702
+"Max angle deviation caused by disturbance [deg]",n/a,1.3693
+"Recovery time after 2.2 s, |theta| <= 0.2 deg [s]",n/a,not reached by 5.0 s
